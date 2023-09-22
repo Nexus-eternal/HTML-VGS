@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Detektiv</title>
+<style id="applicationStylesheet" type="text/css">
+	.mediaViewInfo {
+		--web-view-name: Detektiv;
+		--web-view-id: Detektiv;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Detektiv;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Detektiv {
+		position: absolute;
+		width: 100%;
+		height: 1080px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Detektiv;
+		--web-view-id: Detektiv;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#Bg_main {
+		fill: rgba(170,172,183,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Bg_main {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 1080px;
+		left: 0px;
+		top: 0px;
+	}
+	#navigation {
+		position: absolute;
+		width: 250px;
+		height: 980px;
+		left: 0px;
+		top: 100px;
+		overflow: visible;
+	}
+	#Nav_bg {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Nav_bg {
+		position: absolute;
+		overflow: visible;
+		width: 250px;
+		height: 980px;
+		left: 0px;
+		top: 0px;
+	}
+	#Component_1__1 {
+		position: absolute;
+		width: 108px;
+		height: 27px;
+		left: 15px;
+		top: 20px;
+		overflow: visible;
+	}
+	#point {
+		fill: rgba(96,96,96,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.point {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 0px;
+		top: 5px;
+	}
+	#Detektiv_n {
+		left: 35px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 74px;
+		white-space: nowrap;
+		line-height: 25px;
+		margin-top: -2.5px;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	#Component_1__2 {
+		position: absolute;
+		width: 117px;
+		height: 27px;
+		left: 15px;
+		top: 72px;
+		overflow: visible;
+		--web-animation: fadein undefineds undefined;
+		--web-action-type: page;
+		--web-action-target: Professor.html;
+		cursor: pointer;
+	}
+	#point_p {
+		fill: rgba(96,96,96,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.point_p {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 0px;
+		top: 5px;
+	}
+	#Professor {
+		left: 35px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 83px;
+		white-space: nowrap;
+		line-height: 25px;
+		margin-top: -2.5px;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	#Component_1__3 {
+		position: absolute;
+		width: 62px;
+		height: 27px;
+		left: 15px;
+		top: 124px;
+		overflow: visible;
+	}
+	#point_s {
+		fill: rgba(96,96,96,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.point_s {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 0px;
+		top: 5px;
+	}
+	#Detektiv_t {
+		left: 35px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 28px;
+		white-space: nowrap;
+		line-height: 25px;
+		margin-top: -2.5px;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	#Component_1__4 {
+		position: absolute;
+		width: 62px;
+		height: 27px;
+		left: 15px;
+		top: 176px;
+		overflow: visible;
+	}
+	#point_v {
+		fill: rgba(96,96,96,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.point_v {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 0px;
+		top: 5px;
+	}
+	#Detektiv_w {
+		left: 35px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 28px;
+		white-space: nowrap;
+		line-height: 25px;
+		margin-top: -2.5px;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	#Component_1__5 {
+		position: absolute;
+		width: 62px;
+		height: 27px;
+		left: 15px;
+		top: 228px;
+		overflow: visible;
+	}
+	#point_y {
+		fill: rgba(96,96,96,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.point_y {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 0px;
+		top: 5px;
+	}
+	#Detektiv_z {
+		left: 35px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 28px;
+		white-space: nowrap;
+		line-height: 25px;
+		margin-top: -2.5px;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	#Component_1__6 {
+		position: absolute;
+		width: 62px;
+		height: 27px;
+		left: 15px;
+		top: 280px;
+		overflow: visible;
+	}
+	#point_ {
+		fill: rgba(96,96,96,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.point_ {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 0px;
+		top: 5px;
+	}
+	#Detektiv_ {
+		left: 35px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 28px;
+		white-space: nowrap;
+		line-height: 25px;
+		margin-top: -2.5px;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	#head {
+		position: absolute;
+		width: 1920px;
+		height: 100px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#head_bg {
+		fill: rgba(132,170,209,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.head_bg {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 100px;
+		left: 0px;
+		top: 0px;
+	}
+	#logo {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 25px;
+		top: 25px;
+		overflow: visible;
+	}
+	#Detektiv_ba {
+		left: 284px;
+		top: 26px;
+		position: absolute;
+		overflow: visible;
+		width: 275px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Victoria Typewriter;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 50px;
+		color: rgba(112,112,112,1);
+		letter-spacing: 0.5px;
+	}
+	#house-128 {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 1845px;
+		top: 25px;
+		overflow: visible;
+		--web-animation: fadein 0.30000001192092896s linear;
+		--web-action-type: page;
+		--web-action-target: Main.html;
+		cursor: pointer;
+	}
+	#Portrait {
+		opacity: 0.8;
+		position: absolute;
+		width: 512px;
+		height: 768px;
+		left: 1383px;
+		top: 125px;
+		overflow: visible;
+	}
+	#Navn_William_Will_Morris_Yrke_ {
+		left: 284px;
+		top: 127px;
+		position: absolute;
+		overflow: visible;
+		width: 1303px;
+		white-space: nowrap;
+		line-height: 70px;
+		margin-top: -10px;
+		text-align: left;
+		font-family: Victoria Typewriter;
+		font-style: italic;
+		font-weight: normal;
+		font-size: 50px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 0.5px;
+	}
+</style>
+</head>
+<body>
+<div id="Detektiv">
+	<svg class="Bg_main">
+		<rect id="Bg_main" rx="0" ry="0" x="0" y="0" width="1920" height="1080">
+		</rect>
+	</svg>
+	<div id="navigation">
+		<svg class="Nav_bg">
+			<rect id="Nav_bg" rx="0" ry="0" x="0" y="0" width="250" height="980">
+			</rect>
+		</svg>
+		<div id="Component_1__1" class="Component_1___1">
+			<svg class="point">
+				<ellipse id="point" rx="10" ry="10" cx="10" cy="10">
+				</ellipse>
+			</svg>
+			<div id="Detektiv_n">
+				<span>Detektiv</span>
+			</div>
+		</div>
+		<div id="Component_1__2" class="Component_1___2">
+			<svg class="point_p">
+				<ellipse id="point_p" rx="10" ry="10" cx="10" cy="10">
+				</ellipse>
+			</svg>
+			<div id="Professor">
+				<a href="Professor.html"><span>Professor</span></a>
+			</div>
+		</div>
+		<div id="Component_1__3" class="Component_1___3">
+			<svg class="point_s">
+				<ellipse id="point_s" rx="10" ry="10" cx="10" cy="10">
+				</ellipse>
+			</svg>
+			<div id="Detektiv_t">
+				<span>???</span>
+			</div>
+		</div>
+		<div id="Component_1__4" class="Component_1___4">
+			<svg class="point_v">
+				<ellipse id="point_v" rx="10" ry="10" cx="10" cy="10">
+				</ellipse>
+			</svg>
+			<div id="Detektiv_w">
+				<span>???</span>
+			</div>
+		</div>
+		<div id="Component_1__5" class="Component_1___5">
+			<svg class="point_y">
+				<ellipse id="point_y" rx="10" ry="10" cx="10" cy="10">
+				</ellipse>
+			</svg>
+			<div id="Detektiv_z">
+				<span>???</span>
+			</div>
+		</div>
+		<div id="Component_1__6" class="Component_1___6">
+			<svg class="point_">
+				<ellipse id="point_" rx="10" ry="10" cx="10" cy="10">
+				</ellipse>
+			</svg>
+			<div id="Detektiv_">
+				<span>???</span>
+			</div>
+		</div>
+	</div>
+	<div id="head">
+		<svg class="head_bg">
+			<rect id="head_bg" rx="0" ry="0" x="0" y="0" width="1920" height="100">
+			</rect>
+		</svg>
+		<img id="logo" src="logo.png" srcset="logo.png 1x, logo@2x.png 2x">
+			
+		<div id="Detektiv_ba">
+			<span>Detektiv</span>
+		</div>
+		<a href="Main.html"><img id="house-128" src="house-128.png" srcset="house-128.png 1x, house-128@2x.png 2x"> </a>
+			
+	</div>
+	<img id="Portrait" src="MicrosoftTeams-image_4.png" >
+		
+	<div id="Navn_William_Will_Morris_Yrke_">
+		<span>Navn</span>
+		<span style="font-style:normal;font-weight:normal;">: </span>
+		<span style="font-style:normal;font-weight:normal;font-size:42px;">William "Will" Morris</span><br/>
+		<span>Yrke</span><span style="font-style:normal;font-weight:normal;">: </span>
+		<span style="font-style:normal;font-weight:normal;font-size:42px;">Detektiv</span><br/>
+		<span style="font-style:normal;font-weight:normal;">Bio: </span>
+		<span style="font-style:normal;font-weight:normal;font-size:36px;">En detektiv dukket plutselig opp <br/>
+			i byen vår på et spesialoppdrag fra <br/>
+			hovedstaden. Hans fortid er innhyllet i <br/>
+			et tykt deksel av mystikk, og lite er kjent <br/>
+			om hans tidligere saker. Imidlertid er han <br/>
+			anerkjent som en av kronens beste <br/>
+			detektiver, alltid et skritt foran når det <br/>
+			gjelder å løse de mest komplekse forbrytelsene. <br/>
+			Men under overflatenav dette glødende <br/>
+			ryktet lurer en mørk hemmelighet: detektiven <br/>
+			har en "annen" personlighet som begår drap hensynsløst.<br/>
+		</span><br/>
+	</div>
+</div>
+</body>
+</html>

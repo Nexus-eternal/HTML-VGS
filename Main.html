@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Main</title>
+<link rel="stylesheet" href="styles.css">
+<style id="applicationStylesheet" type="text/css">
+	html, body {
+        width: 100%;
+      }
+	.mediaViewInfo {
+		--web-view-name: Main;
+		--web-view-id: Main;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Main;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Main {
+		position: absolute;
+		width: 100%;
+		height: 3351px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Main;
+		--web-view-id: Main;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	
+	#Professor {
+		position: absolute;
+		width: 512px;
+		height: 872px;
+		left: 940px;
+		top: 0px;
+		overflow: visible;
+		--web-animation: fadein undefineds undefined;
+		--web-action-type: page;
+		--web-action-target: Professor.html;
+		cursor: pointer;
+	}
+	#Detektiv_ {
+    left: 35px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 28px;
+    white-space: nowrap;
+    line-height: 25px;
+    margin-top: -2.5px;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(112,112,112,1);
+}
+#Component_1__12 {
+    position: absolute;
+    width: 62px;
+    height: 27px;
+    left: 0px;
+    top: 260px;
+    overflow: visible;
+}
+#point_ {
+    fill: rgba(96,96,96,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.point_ {
+    position: absolute;
+    overflow: visible;
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 5px;
+}
+#Detektiv_ba {
+    left: 35px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 28px;
+    white-space: nowrap;
+    line-height: 25px;
+    margin-top: -2.5px;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(112,112,112,1);
+}
+	
+</style>
+
+</head>
+<body>
+<div id="Main">
+	<svg class="Bg_main">
+		<rect id="Bg_main" rx="0" ry="0" x="0" y="0" width="1920" height="3351">
+		</rect>
+	</svg>
+	<div id="navigation">
+		<svg class="Nav_bg">
+			<rect id="Nav_bg" rx="0" ry="0" x="0" y="0" width="250" height="3251">
+			</rect>
+		</svg>
+		<div id="Markers">
+			<div id="Component_1__7" class="Component_1___7">
+				<svg class="point">
+					<ellipse id="point" rx="10" ry="10" cx="10" cy="10">
+					</ellipse>
+				</svg>
+				<div id="Detektiv">
+					<a href="Detektiv.html"><span>Detektiv</span></a>
+				</div>
+			</div>
+			<div id="Component_1__8" class="Component_1___8">
+				<svg class="point_q">
+					<ellipse id="point_q" rx="10" ry="10" cx="10" cy="10">
+					</ellipse>
+				</svg>
+				<div onclick="application.goToTargetView(event)" id="Detektiv_r">
+					<a href="Professor.html"><span>Professor</span></a>
+				</div>
+			</div>
+			<div id="Component_1__9" class="Component_1___9">
+				<svg class="point_t">
+					<ellipse id="point_t" rx="10" ry="10" cx="10" cy="10">
+					</ellipse>
+				</svg>
+				<div id="Detektiv_u">
+					<span>???</span>
+				</div>
+			</div>
+			<div id="Component_1__10" class="Component_1___10">
+				<svg class="point_w">
+					<ellipse id="point_w" rx="10" ry="10" cx="10" cy="10">
+					</ellipse>
+				</svg>
+				<div id="Detektiv_x">
+					<span>???</span>
+				</div>
+			</div>
+			<div id="Component_1__11" class="Component_1___11">
+				<svg class="point_z">
+					<ellipse id="point_z" rx="10" ry="10" cx="10" cy="10">
+					</ellipse>
+				</svg>
+				<div id="Detektiv_">
+					<span>???</span>
+				</div>
+			</div>
+			<div id="Component_1__12" class="Component_1___12">
+				<svg class="point_">
+					<ellipse id="point_" rx="10" ry="10" cx="10" cy="10">
+					</ellipse>
+				</svg>
+				<div id="Detektiv_ba">
+					<span>???</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="Cards">
+		<div id="Component" class="___">
+			<img id="MicrosoftTeams-image_6" src="MicrosoftTeams-image_6.png" srcset="MicrosoftTeams-image_6.png 1x, MicrosoftTeams-image_6@2x.png 2x">
+				
+			<svg class="Rectangle_4">
+				<rect id="Rectangle_4" rx="0" ry="0" x="0" y="0" width="512" height="104">
+				</rect>
+			</svg>
+			<div id="Text">
+				<span>???</span>
+			</div>
+		</div>
+		<div id="Component_" class="___">
+			<img id="MicrosoftTeams-image_6_ba" src="MicrosoftTeams-image_6_ba.png" srcset="MicrosoftTeams-image_6_ba.png 1x, MicrosoftTeams-image_6_ba@2x.png 2x">
+				
+			<svg class="Rectangle_4_bb">
+				<rect id="Rectangle_4_bb" rx="0" ry="0" x="0" y="0" width="512" height="104">
+				</rect>
+			</svg>
+			<div id="Text_bc">
+				<span>???</span>
+			</div>
+		</div>
+		<div id="Component_bd" class="___">
+			<img id="MicrosoftTeams-image_6_be" src="MicrosoftTeams-image_6_be.png" srcset="MicrosoftTeams-image_6_be.png 1x, MicrosoftTeams-image_6_be@2x.png 2x">
+				
+			<svg class="Rectangle_4_bf">
+				<rect id="Rectangle_4_bf" rx="0" ry="0" x="0" y="0" width="512" height="104">
+				</rect>
+			</svg>
+			<div id="Text_bg">
+				<span>???</span>
+			</div>
+		</div>
+		<div id="Component_bh" class="___">
+			<img id="MicrosoftTeams-image_6_bi" src="MicrosoftTeams-image_6_bi.png" srcset="MicrosoftTeams-image_6_bi.png 1x, MicrosoftTeams-image_6_bi@2x.png 2x">
+				
+			<svg class="Rectangle_4_bj">
+				<rect id="Rectangle_4_bj" rx="0" ry="0" x="0" y="0" width="512" height="104">
+				</rect>
+			</svg>
+			<div id="Text_bk">
+				<span>???</span>
+			</div>
+		</div>
+		<div  id="Professor" class="Professor">
+			<a href="Professor.html"><img id="Fresco_png" src="Fresco_png.png" srcset="Fresco_png.png 1x, Fresco_png@2x.png 2x"></a>>
+				
+			<svg class="Rectangle_4_bn">
+				<rect id="Rectangle_4_bn" rx="0" ry="0" x="0" y="0" width="512" height="104">
+				</rect>
+			</svg>
+			<div id="Professor_bo">
+				<span>Professor</span>
+			</div>
+		</div>
+		<div onclick="application.goToTargetView(event)" id="Detective" class="Detective">
+			<a href="Detektiv.html"><img id="MicrosoftTeams-image_4" src="MicrosoftTeams-image_4.png" srcset="MicrosoftTeams-image_4.png 1x, MicrosoftTeams-image_4@2x.png 2x"></a>
+				
+			<svg class="Rectangle_4_br">
+				<rect id="Rectangle_4_br" rx="0" ry="0" x="0" y="0" width="512" height="104">
+				</rect>
+			</svg>
+			<div id="Detektiv_bs">
+				<span>Detektiv</span>
+			</div>
+		</div>
+	</div>
+	<div id="head">
+		<svg class="Head_bg">
+			<rect id="Head_bg" rx="0" ry="0" x="0" y="0" width="1920" height="100">
+			</rect>
+		</svg>
+		<img id="Logo" src="Logo.png" srcset="Logo.png 1x, Logo@2x.png 2x">
+			
+		<div id="Arkiv">
+			<span>Arkiv</span>
+		</div>
+		<img id="house-128" src="house-128.png" srcset="house-128.png 1x, house-128@2x.png 2x">
+			
+	</div>
+</div>
+</body>
+</html>

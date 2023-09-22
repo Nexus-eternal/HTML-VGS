@@ -1,0 +1,1324 @@
+.mediaViewInfoMain {
+    --web-view-name: Main;
+    --web-view-id: Main;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+:root {
+    --web-view-ids: Main;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#Main {
+    position: absolute;
+    width: 100%;
+    height: 3351px;
+    background-color: rgba(255,255,255,1);
+    overflow: hidden;
+    --web-view-name: Main;
+    --web-view-id: Main;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+#Bg_main {
+    fill: rgba(170,172,183,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Bg_main {
+    position: absolute;
+    overflow: visible;
+    width: 100%;
+    height: 3351px;
+    left: 0px;
+    top: 0px;
+}
+#navigation {
+    position: absolute;
+    width: 250px;
+    height: 3251px;
+    left: 0px;
+    top: 100px;
+    overflow: visible;
+}
+#Nav_bg {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Nav_bg {
+    position: absolute;
+    overflow: visible;
+    width: 250px;
+    height: 3251px;
+    left: 0px;
+    top: 0px;
+}
+#Markers {
+    position: absolute;
+    width: 117px;
+    height: 287px;
+    left: 15px;
+    top: 20px;
+    overflow: visible;
+}
+#Component_1__7 {
+    position: absolute;
+    width: 108px;
+    height: 27px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    --web-animation: fadein undefineds undefined;
+    --web-action-type: page;
+    --web-action-target: Detektiv.html;
+    cursor: pointer;
+}
+#point {
+    fill: rgba(96,96,96,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.point {
+    position: absolute;
+    overflow: visible;
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 5px;
+}
+#Detektiv {
+    left: 35px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 74px;
+    white-space: nowrap;
+    line-height: 25px;
+    margin-top: -2.5px;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(112,112,112,1);
+}
+#Component_1__8 {
+    position: absolute;
+    width: 117px;
+    height: 27px;
+    left: 0px;
+    top: 52px;
+    overflow: visible;
+}
+#point_q {
+    fill: rgba(96,96,96,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.point_q {
+    position: absolute;
+    overflow: visible;
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 5px;
+}
+#Detektiv_r {
+    left: 35px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 83px;
+    white-space: nowrap;
+    --web-animation: fadein undefineds undefined;
+    --web-action-type: page;
+    --web-action-target: Professor.html;
+    cursor: pointer;
+    line-height: 25px;
+    margin-top: -2.5px;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(112,112,112,1);
+}
+#Component_1__9 {
+    position: absolute;
+    width: 62px;
+    height: 27px;
+    left: 0px;
+    top: 104px;
+    overflow: visible;
+}
+#point_t {
+    fill: rgba(96,96,96,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.point_t {
+    position: absolute;
+    overflow: visible;
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 5px;
+}
+#Detektiv_u {
+    left: 35px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 28px;
+    white-space: nowrap;
+    line-height: 25px;
+    margin-top: -2.5px;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(112,112,112,1);
+}
+#Component_1__10 {
+    position: absolute;
+    width: 62px;
+    height: 27px;
+    left: 0px;
+    top: 156px;
+    overflow: visible;
+}
+#point_w {
+    fill: rgba(96,96,96,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.point_w {
+    position: absolute;
+    overflow: visible;
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 5px;
+}
+#Detektiv_x {
+    left: 35px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 28px;
+    white-space: nowrap;
+    line-height: 25px;
+    margin-top: -2.5px;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(112,112,112,1);
+}
+#Component_1__11 {
+    position: absolute;
+    width: 62px;
+    height: 27px;
+    left: 0px;
+    top: 208px;
+    overflow: visible;
+}
+#point_z {
+    fill: rgba(96,96,96,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.point_z {
+    position: absolute;
+    overflow: visible;
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 5px;
+}
+#Detektiv_ {
+    left: 35px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 28px;
+    white-space: nowrap;
+    line-height: 25px;
+    margin-top: -2.5px;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(112,112,112,1);
+}
+#Component_1__12 {
+    position: absolute;
+    width: 62px;
+    height: 27px;
+    left: 0px;
+    top: 260px;
+    overflow: visible;
+}
+#point_ {
+    fill: rgba(96,96,96,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.point_ {
+    position: absolute;
+    overflow: visible;
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 5px;
+}
+#Detektiv_ba {
+    left: 35px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 28px;
+    white-space: nowrap;
+    line-height: 25px;
+    margin-top: -2.5px;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(112,112,112,1);
+}
+#Cards {
+    position: absolute;
+    width: 1452px;
+    height: 2976px;
+    left: 358px;
+    top: 125px;
+    overflow: visible;
+}
+#Component {
+    position: absolute;
+    width: 512px;
+    height: 872px;
+    left: 0px;
+    top: 2104px;
+    overflow: visible;
+}
+#MicrosoftTeams-image_6 {
+    opacity: 0.8;
+    position: absolute;
+    width: 512px;
+    height: 768px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Rectangle_4 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_4 {
+    position: absolute;
+    overflow: visible;
+    width: 512px;
+    height: 104px;
+    left: 0px;
+    top: 768px;
+}
+#Text {
+    left: 213px;
+    top: 792px;
+    position: absolute;
+    overflow: visible;
+    width: 87px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Victoria Typewriter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    color: rgba(112,112,112,1);
+    letter-spacing: 0.5px;
+}
+#Component_ {
+    position: absolute;
+    width: 512px;
+    height: 872px;
+    left: 940px;
+    top: 2104px;
+    overflow: visible;
+}
+#MicrosoftTeams-image_6_ba {
+    opacity: 0.8;
+    position: absolute;
+    width: 512px;
+    height: 768px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Rectangle_4_bb {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_4_bb {
+    position: absolute;
+    overflow: visible;
+    width: 512px;
+    height: 104px;
+    left: 0px;
+    top: 768px;
+}
+#Text_bc {
+    left: 213px;
+    top: 792px;
+    position: absolute;
+    overflow: visible;
+    width: 87px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Victoria Typewriter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    color: rgba(112,112,112,1);
+    letter-spacing: 0.5px;
+}
+#Component_bd {
+    position: absolute;
+    width: 512px;
+    height: 872px;
+    left: 0px;
+    top: 1052px;
+    overflow: visible;
+}
+#MicrosoftTeams-image_6_be {
+    opacity: 0.8;
+    position: absolute;
+    width: 512px;
+    height: 768px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Rectangle_4_bf {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_4_bf {
+    position: absolute;
+    overflow: visible;
+    width: 512px;
+    height: 104px;
+    left: 0px;
+    top: 768px;
+}
+#Text_bg {
+    left: 213px;
+    top: 792px;
+    position: absolute;
+    overflow: visible;
+    width: 87px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Victoria Typewriter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    color: rgba(112,112,112,1);
+    letter-spacing: 0.5px;
+}
+#Component_bh {
+    position: absolute;
+    width: 512px;
+    height: 872px;
+    left: 940px;
+    top: 1052px;
+    overflow: visible;
+}
+#MicrosoftTeams-image_6_bi {
+    opacity: 0.8;
+    position: absolute;
+    width: 512px;
+    height: 768px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Rectangle_4_bj {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_4_bj {
+    position: absolute;
+    overflow: visible;
+    width: 512px;
+    height: 104px;
+    left: 0px;
+    top: 768px;
+}
+#Text_bk {
+    left: 213px;
+    top: 792px;
+    position: absolute;
+    overflow: visible;
+    width: 87px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Victoria Typewriter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    color: rgba(112,112,112,1);
+    letter-spacing: 0.5px;
+}
+#Professor_l {
+    position: absolute;
+    width: 512px;
+    height: 872px;
+    left: 940px;
+    top: 0px;
+    overflow: visible;
+    --web-animation: fadein undefineds undefined;
+    --web-action-type: page;
+    --web-action-target: Professor.html;
+    cursor: pointer;
+}
+#Fresco_png {
+    opacity: 0.8;
+    position: absolute;
+    width: 512px;
+    height: 768px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Rectangle_4_bn {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_4_bn {
+    position: absolute;
+    overflow: visible;
+    width: 512px;
+    height: 104px;
+    left: 0px;
+    top: 768px;
+}
+#Professor_bo {
+    left: 105px;
+    top: 792px;
+    position: absolute;
+    overflow: visible;
+    width: 304px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Victoria Typewriter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    color: rgba(112,112,112,1);
+    letter-spacing: 0.5px;
+}
+#Detective {
+    position: absolute;
+    width: 512px;
+    height: 872px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    --web-animation: fadein undefineds undefined;
+    --web-action-type: page;
+    --web-action-target: Detektiv.html;
+    cursor: pointer;
+}
+#MicrosoftTeams-image_4 {
+    opacity: 0.8;
+    position: absolute;
+    width: 512px;
+    height: 768px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Rectangle_4_br {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_4_br {
+    position: absolute;
+    overflow: visible;
+    width: 512px;
+    height: 104px;
+    left: 0px;
+    top: 768px;
+}
+#Detektiv_bs {
+    left: 125px;
+    top: 792px;
+    position: absolute;
+    overflow: visible;
+    width: 263px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Victoria Typewriter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    color: rgba(112,112,112,1);
+    letter-spacing: 0.5px;
+}
+#head {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Head_bg {
+    fill: rgba(132,170,209,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Head_bg {
+    position: absolute;
+    overflow: visible;
+    width: 100%;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+}
+#Logo {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 25px;
+    top: 25px;
+    overflow: visible;
+}
+#Arkiv {
+    left: 260px;
+    top: 26px;
+    position: absolute;
+    overflow: visible;
+    width: 172px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Victoria Typewriter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgba(112,112,112,1);
+    letter-spacing: 0.5px;
+}
+#house-128 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1845px;
+    top: 25px;
+    overflow: visible;
+}
+
+.mediaViewInfoDetektiv {
+    --web-view-name: Detektiv;
+    --web-view-id: Detektiv;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+:root {
+    --web-view-ids: Detektiv;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#Detektiv {
+    position: absolute;
+    width: 100%;
+    height: 1080px;
+    background-color: rgba(255,255,255,1);
+    overflow: hidden;
+    --web-view-name: Detektiv;
+    --web-view-id: Detektiv;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+
+#Component_1__1 {
+    position: absolute;
+    width: 108px;
+    height: 27px;
+    left: 15px;
+    top: 20px;
+    overflow: visible;
+}
+#point {
+    fill: rgba(96,96,96,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.point {
+    position: absolute;
+    overflow: visible;
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 5px;
+}
+#Detektiv_n {
+    left: 35px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 74px;
+    white-space: nowrap;
+    line-height: 25px;
+    margin-top: -2.5px;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(112,112,112,1);
+}
+#Component_1__2 {
+    position: absolute;
+    width: 117px;
+    height: 27px;
+    left: 15px;
+    top: 72px;
+    overflow: visible;
+    --web-animation: fadein undefineds undefined;
+    --web-action-type: page;
+    --web-action-target: Professor.html;
+    cursor: pointer;
+}
+#point_p {
+    fill: rgba(96,96,96,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.point_p {
+    position: absolute;
+    overflow: visible;
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 5px;
+}
+#Professor {
+    left: 35px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 83px;
+    white-space: nowrap;
+    line-height: 25px;
+    margin-top: -2.5px;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(112,112,112,1);
+}
+#Component_1__3 {
+    position: absolute;
+    width: 62px;
+    height: 27px;
+    left: 15px;
+    top: 124px;
+    overflow: visible;
+}
+#point_s {
+    fill: rgba(96,96,96,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.point_s {
+    position: absolute;
+    overflow: visible;
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 5px;
+}
+#Detektiv_t {
+    left: 35px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 28px;
+    white-space: nowrap;
+    line-height: 25px;
+    margin-top: -2.5px;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(112,112,112,1);
+}
+#Component_1__4 {
+    position: absolute;
+    width: 62px;
+    height: 27px;
+    left: 15px;
+    top: 176px;
+    overflow: visible;
+}
+#point_v {
+    fill: rgba(96,96,96,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.point_v {
+    position: absolute;
+    overflow: visible;
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 5px;
+}
+#Detektiv_w {
+    left: 35px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 28px;
+    white-space: nowrap;
+    line-height: 25px;
+    margin-top: -2.5px;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(112,112,112,1);
+}
+#Component_1__5 {
+    position: absolute;
+    width: 62px;
+    height: 27px;
+    left: 15px;
+    top: 228px;
+    overflow: visible;
+}
+#point_y {
+    fill: rgba(96,96,96,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.point_y {
+    position: absolute;
+    overflow: visible;
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 5px;
+}
+#Detektiv_z {
+    left: 35px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 28px;
+    white-space: nowrap;
+    line-height: 25px;
+    margin-top: -2.5px;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(112,112,112,1);
+}
+#Component_1__6 {
+    position: absolute;
+    width: 62px;
+    height: 27px;
+    left: 15px;
+    top: 280px;
+    overflow: visible;
+}
+#point_ {
+    fill: rgba(96,96,96,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.point_ {
+    position: absolute;
+    overflow: visible;
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 5px;
+}
+#Detektiv_ {
+    left: 35px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 28px;
+    white-space: nowrap;
+    line-height: 25px;
+    margin-top: -2.5px;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(112,112,112,1);
+}
+
+#Detektiv_ba {
+    left: 284px;
+    top: 26px;
+    position: absolute;
+    overflow: visible;
+    width: 275px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Victoria Typewriter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgba(112,112,112,1);
+    letter-spacing: 0.5px;
+}
+#Portrait {
+    opacity: 0.8;
+    position: absolute;
+    width: 512px;
+    height: 768px;
+    left: 1383px;
+    top: 125px;
+    overflow: visible;
+}
+#Navn_William_Will_Morris_Yrke_ {
+    left: 284px;
+    top: 127px;
+    position: absolute;
+    overflow: visible;
+    width: 1303px;
+    white-space: nowrap;
+    line-height: 70px;
+    margin-top: -10px;
+    text-align: left;
+    font-family: Victoria Typewriter;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 50px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 0.5px;
+}
+.mediaViewInfoProfessor {
+    --web-view-name: Professor;
+    --web-view-id: Professor;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+:root {
+    --web-view-ids: Professor;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#Professor_3 {
+    position: absolute;
+    width: 100%;
+    height: 1080px;
+    background-color: rgba(255,255,255,1);
+    overflow: hidden;
+    --web-view-name: Professor;
+    --web-view-id: Professor;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+#Component_1__13 {
+    position: absolute;
+    width: 108px;
+    height: 27px;
+    left: 15px;
+    top: 20px;
+    overflow: visible;
+    --web-animation: fadein undefineds undefined;
+    --web-action-type: page;
+    --web-action-target: Detektiv.html;
+    cursor: pointer;
+}
+#point {
+    fill: rgba(96,96,96,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.point {
+    position: absolute;
+    overflow: visible;
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 5px;
+}
+#Detektiv {
+    left: 35px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 74px;
+    white-space: nowrap;
+    line-height: 25px;
+    margin-top: -2.5px;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(112,112,112,1);
+}
+#Component_1__14 {
+    position: absolute;
+    width: 117px;
+    height: 27px;
+    left: 15px;
+    top: 72px;
+    overflow: visible;
+}
+#point_p {
+    fill: rgba(96,96,96,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.point_p {
+    position: absolute;
+    overflow: visible;
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 5px;
+}
+#Professor_q {
+    left: 35px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 83px;
+    white-space: nowrap;
+    line-height: 25px;
+    margin-top: -2.5px;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(112,112,112,1);
+}
+#Component_1__15 {
+    position: absolute;
+    width: 62px;
+    height: 27px;
+    left: 15px;
+    top: 124px;
+    overflow: visible;
+}
+#point_s {
+    fill: rgba(96,96,96,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.point_s {
+    position: absolute;
+    overflow: visible;
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 5px;
+}
+#Detektiv_t {
+    left: 35px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 28px;
+    white-space: nowrap;
+    line-height: 25px;
+    margin-top: -2.5px;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(112,112,112,1);
+}
+#Component_1__16 {
+    position: absolute;
+    width: 62px;
+    height: 27px;
+    left: 15px;
+    top: 176px;
+    overflow: visible;
+}
+#point_v {
+    fill: rgba(96,96,96,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.point_v {
+    position: absolute;
+    overflow: visible;
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 5px;
+}
+#Detektiv_w {
+    left: 35px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 28px;
+    white-space: nowrap;
+    line-height: 25px;
+    margin-top: -2.5px;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(112,112,112,1);
+}
+#Component_1__17 {
+    position: absolute;
+    width: 62px;
+    height: 27px;
+    left: 15px;
+    top: 228px;
+    overflow: visible;
+}
+#point_y {
+    fill: rgba(96,96,96,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.point_y {
+    position: absolute;
+    overflow: visible;
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 5px;
+}
+#Detektiv_z {
+    left: 35px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 28px;
+    white-space: nowrap;
+    line-height: 25px;
+    margin-top: -2.5px;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(112,112,112,1);
+}
+#Component_1__18 {
+    position: absolute;
+    width: 62px;
+    height: 27px;
+    left: 15px;
+    top: 280px;
+    overflow: visible;
+}
+#point_ {
+    fill: rgba(96,96,96,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.point_ {
+    position: absolute;
+    overflow: visible;
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 5px;
+}
+#Detektiv_ {
+    left: 35px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 28px;
+    white-space: nowrap;
+    line-height: 25px;
+    margin-top: -2.5px;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(112,112,112,1);
+}
+#Professor_ {
+    left: 284px;
+    top: 26px;
+    position: absolute;
+    overflow: visible;
+    width: 316px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Victoria Typewriter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgba(112,112,112,1);
+    letter-spacing: 0.5px;
+}
+#Navn_Jacque_Professor_Fresco_Y {
+    left: 284px;
+    top: 127px;
+    position: absolute;
+    overflow: visible;
+    width: 1421px;
+    white-space: nowrap;
+    line-height: 70px;
+    margin-top: -10px;
+    text-align: left;
+    font-family: Victoria Typewriter;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 50px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 0.5px;
+}
